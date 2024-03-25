@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <a href="Home.html"></a>
+    <a href="skill.html"></a>
+</head>
+
+<style>
+   .{
+	margin: 0%;
+	padding: 0%;
+	font-family: 'Roboto', sans-serif;
+
+}
+body{
+	background-color: #f7f4f4ee;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	background-color: #eeee;
+	padding: 22px;
+	box-shadow: 0px 2px 2px 2px rgb(181, 179, 179);
+}
+nav .logo{
+	margin-left: 22px;
+	font-size: 24px;
+}
+ul{
+	margin-right: 45px;
+	margin-top: 7px;
+}
+nav ul li{
+	list-style: none;
+
+}
+ul li a{
+	margin-inline: 22px;
+	font-size: 20px;
+}
+
+ul li i{
+	font-size: 22px;
+}
+ul li #Home{
+	color: rgb(5, 167, 167);
+}
+
+ul li a:hover{
+	border-bottom: 2px solid black;
+	cursor: pointer;
+}
+ul li i:hover{
+	color: gray;
+	cursor: pointer;
+}
+
+
+
+.main{
+	display: flex;
+	justify-content: space-around;
+}
+.main .mainText{
+	margin-top: 144px;
+/*	display: flex;*/
+flex-direction: 1;
+}
+.mainText h1{
+font-size: 64px;
+}
+.mainText .top{
+	color: rgb(4, 138, 138);
+}
+.main .mainText img{
+	width: 94%;
+	align-items: left;
+}
+
+.mainText button{
+	width: 145px;
+	height: 40px;
+	background-color: rgb(4, 140, 140);
+	border: none;
+	font-size: 22px;
+	color: white;
+	margin-top: 24px;
+}
+
+.mainText button:hover{
+	border: 3px solid rgb(3, 128, 128);
+	background-color: transparent;
+	color: rgb(2, 121, 121);
+}
+.mainText p{
+	margin-top: 12px;
+}
+</style>
+
+<body>
+    <!-- <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="skill.html">skill</a></li>
+                <li><a href="Project.html">Project</a></li>
+                <li><a href="Contact Us.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </div> -->
+
+    <div class="container">
+        <!-- Navigation -->
+        <nav>
+            <div class="logo">
+                <h1>My-Portfolio</h1>
+            </div>
+            <ul>
+                <li>
+                    <a id="Home" href="Home.html">Home</a>
+                    <a href="skill.html">skill</a>
+                    <a href="Project.html">Project</a>
+                    <a href="Contact Us.html">Contact us</a>
+                    
+                    <i class="fas fa-shopping-cart"></i> <!-- Corrected FontAwesome icon class -->
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Page -->
+        <div class="main" style="border: 5px ,">
+            <div class="mainText">
+                <h2>My-Portfolio</h2>
+                <h1 class="top">Welcome to My Portfolio</h1>
+                <h1>Web Developer</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi</p>
+                <button>Explore</button>
+            </div>
+            <div style="flex-direction: 2;"><img src="" width="10px" height="10px"></div>
+        </div>
+
+    <br><br>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ccOb8gL0suE?si=FJiPB4xXp84wxla4"
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+    <br><br>
+
+    <audio src="../Deploy-website/audio.mp3"  controls></audio>
+</body>
+
+</html>
